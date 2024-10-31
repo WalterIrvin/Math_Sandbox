@@ -1,0 +1,23 @@
+package-mode = false
+[tool.poetry]
+name= "python-financial-toolkit"
+description = "Provides basic financial calculator functionality and graphs."
+version = "0.1.0"
+
+authors = ["Abigail Irvin"]
+readme = "README.md"
+license = "README.md"
+
+packages = [{include="src", format = ["sdist", "wheel"]}]
+
+[virtualenvs]
+in-project = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tools.poetry.dependencies]
+python = ">=3.10"
+numpy = ">=1.0"
+plotly = ">=1.0"

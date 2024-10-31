@@ -17,3 +17,4 @@ follow = G.Scatter(
 output = [follow]
 
 plotly.offline.plot(output, filename='basic-scatter.html')
+print("testing")
