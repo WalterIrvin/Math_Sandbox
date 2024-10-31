@@ -46,4 +46,5 @@ class InterestCalculator:
             new_date = start_time.date() + relativedelta(months=month)
             cur_interest = random.uniform(avg_interest - interest_fluctuation, avg_interest + interest_fluctuation)
             monthly_data = FinancialData(cur_amount, cur_interest, )
-        #print(months_difference)
+        print(months_difference)
+	# Test months difference
